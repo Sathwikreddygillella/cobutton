@@ -1,0 +1,54 @@
+<html>
+<head>
+<title> Responsive page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<style>
+body
+  {
+-webkit-background-size: cover;
+background:url('https://static.scientificamerican.com/sciam/cache/file/4E0744CD-793A-4EF8-B550B54F7F2C4406_source.jpg?w=590&h=800&ACB6A419-81EB-4B9C-B846FD8EBFB16FBE');
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  }
+  h1{
+    text-align:center;
+  }
+  h2 {
+    text-align:center;
+    color:#c9302c;
+  }
+  .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #e3ba40;
+  background-color: #3296a8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #e58fff;
+}
+
+.button:hover {background-color: #a83253}
+
+.button:active {
+  background-color: #326da8;
+  box-shadow: 0 5px #71dec4;
+  transform: translateY(4px);
+}
+  button {
+    text-align:center;
+  }
+</style>
+  </head>
+<body>
+<h1 style="color:#c214c3" class="text-uppercase">NATURE</h1>
+<h2 class="text-lowercase">BEAUTY</h2>
+<button class="button">Find more</button>
+</body>
+
+
